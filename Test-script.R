@@ -285,3 +285,7 @@ test_data <- read.csv("https://stepic.org/media/attachments/course/129/fill_na_t
 
 fit <- lm(y~x_1+x_2,test_data,na.action = "na.omit")
 fill_na(test_data)
+
+
+
+install.packages("rmarkdown")
